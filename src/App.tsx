@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Counter from "./components/Counter";
 
 let student: string = "Jeff";
 let age: number = 69;
@@ -34,7 +35,11 @@ const handleAddUser = (
 };
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Counter />
+    </div>
+  );
 }
 
 export default App;
